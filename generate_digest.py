@@ -72,7 +72,7 @@ Busca información actualizada sobre cada categoría antes de escribir."""
     print("🔍 Buscando noticias con web search...")
 
     response = client.messages.create(
-        model="claude-opus-4-5",
+        model="claude-sonnet-4-5",
         max_tokens=2000,
         system=SYSTEM_PROMPT.format(fecha=today),
         tools=[{"type": "web_search_20250305", "name": "web_search"}],

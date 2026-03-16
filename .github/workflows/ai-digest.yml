@@ -4,7 +4,7 @@ on:
   schedule:
     # Corre cada día de lunes a viernes a las 8:00 AM (hora Ciudad de Guatemala / UTC-6)
     # En UTC eso es las 14:00
-    - cron: "0 14 * * 1-5"
+    - cron: "0 14 * * 1"
 
   # Permite ejecutarlo manualmente desde la pestaña Actions en GitHub
   workflow_dispatch:
